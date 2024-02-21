@@ -95,7 +95,7 @@ Above, we saw the example ``/\.sc$/`` which finds all glyphs which end with the
 suffix ``.sc``. Let's say this resolves to ``[a.sc b.sc c.sc]``. If you then
 desuffix that glyph selector - ``/\.sc$/~sc`` - you get the bare, non-small-caps
 forms of those glyphs: ``[a b c]``. In other words, the glyphs in the font which
-hayve a corresponding small-caps form. Now you don't have to keep track of which
+have a corresponding small-caps form. Now you don't have to keep track of which
 glyphs you have small-caps forms of; you can select the list of small
 caps glyphs, and turn that back into the unsuffixed form::
 
